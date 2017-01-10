@@ -31,7 +31,10 @@ h2 {
    color: #000000;
    border-bottom: 1px solid #C6EC8C;
 }
- 
+
+input {
+    box-sizing: margin-box;
+}
 /**************** Pseudo classes ****************/
  
 a:link {
@@ -181,4 +184,8 @@ a:active {
    width:105px;
    height:202px;
    z-index: 1;
+}
+#url_box{
+   width: 90%;
+   height: 20px;
 }
