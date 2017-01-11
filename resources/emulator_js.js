@@ -1,7 +1,7 @@
                   $(document).ready(function(){
                     $("button").click(function(){
                       console.log($("#test").val()); 
-                      //$("#obj").attr("src", $("#test").val());
+                      $("#obj").attr("src", $("#test").val());
                       $("#obj_iphone6").hide();
                       $("#obj_iphone5").hide();
                       $("#obj_motog").hide();
